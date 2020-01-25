@@ -5,7 +5,7 @@ exports.config = {
   framework: 'jasmine',
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['test_spec.js'],
+  specs: ['work_item_test.js'],
 
   onPrepare: function(){
     jasmine.getEnv().addReporter(new SpecReporter({
